@@ -1,0 +1,52 @@
+#wrapper {
+    display: flex;
+}
+
+.frame1{
+	margin:0 auto;
+	text-align:left;
+	height:200px;
+	width:200px;
+	border:8px solid #000;
+}
+
+.frame2{
+	margin:0 auto;
+	text-align:left;
+	height:300px;
+	width:200px;
+	border:8px solid #000;
+}
+
+.frame3{
+	margin:0 auto;
+	text-align: center;
+	height:43px;
+	width:200px;
+	border:8px solid #000;
+}
+
+.frame4{
+	margin:0 auto;
+	text-align:left;
+	height:relative;
+	width:260px;
+	border:8px solid #000;
+}
+
+button{
+	color:#696c70;
+	margin:2% 1px;
+	height:35px;
+	width:80px;
+}
+
+button:hover{
+	color:#000; 
+	font-weight:bold;
+	border:2px solid #000
+}
+
+.h1{
+	text-align: center;
+}

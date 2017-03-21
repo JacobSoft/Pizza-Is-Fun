@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="assets/css/style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+<div id="wrapper">
+	<div class="frame1">
+		<h1>SIZE</h1>
+		<br>
+		<br>
+		<input class="size" type="radio" name="size" value="Personal" checked> Personal ($6)</input>
+		<br>
+		<input class="size" type="radio" name="size" value="Medium"> Medium ($10)</input>
+		<br>
+		<input class="size" type="radio" name="size" value="Large"> Large ($14)</input>
+		<br>
+		<input class="size" type="radio" name="size" value="Extra Large"> Extra Large ($16)</input>
+	</div>
+
+	<div class="frame1">
+		<h1>SAUCEY</h1>
+		<br>
+		<br>
+		<input class="sauce" type="radio" name="sauce" value="Marinara" checked> Marinara</input>
+		<br>
+		<input class="sauce" type="radio" name="sauce" value="White Sauce"> White Sauce</input>
+		<br>
+		<input class="sauce" type="radio" name="sauce" value="Barbeque Sauce"> Barbeque Sauce</input>
+		<br>
+		<input class="sauce" type="radio" name="sauce" value="Sans Sauce"> Sans Sauce</input>
+	</div>
+
+	<div class="frame1">
+		<h1>CHEESEY</h1>
+		<h4>Extra cheese: +$3.</h4>
+		<br>
+		<input class="cheese" type="radio" name="cheese" value="Regular Cheese" checked> Regular Cheese</input>
+		<br>
+		<input class="cheese" type="radio" name="cheese" value="Extra Cheese"> Extra Cheese</input>
+		<br>
+		<input class="cheese" type="radio" name="cheese" value="Sans Cheese"> Sans Cheese</input>
+	</div>
+</div>	
+
+<br>
+
+<div id="wrapper">
+	<div class="frame2">
+		<h1>CRUST</h1>
+		<h4>Cheese Stuffed: +$3</h4>
+		<br>
+		<br>
+		<br>
+		<br>
+		<input class="crust" type="radio" name="crust" value="Plain" checked>Plain</input>
+		<br>
+		<input class="crust" type="radio" name="crust" value="Garlic Butter">Garlic Butter</input>
+		<br>
+		<input class="crust" type="radio" name="crust" value="Cheese Stuffed"> Cheese Stuffed</input>
+		<br>
+		<input class="crust" type="radio" name="crust" value="Spicy"> Spicy</input>
+		<br>
+		<input class="crust" type="radio" name="crust" value="House Special"> House Special</input>
+	</div>
+
+	<div class="frame2">
+		<h1>MEAT</h1>
+		<h4>First free, extras are $1 each.</h4>
+		<br>
+		<br>
+		<br>
+		<input class="meat" type="checkbox" name="meat" value="Pepperoni" checked> Pepperoni</input>
+		<br>
+		<input class="meat" type="checkbox" name="meat" value="Sausage"> Sausage</input>
+		<br>
+		<input class="meat" type="checkbox" name="meat" value="Canadian Bacon"> Canadian Bacon</input>
+		<br>
+		<input class="meat" type="checkbox" name="meat" value="Ground Beef"> Ground Beef</input>
+		<br>
+		<input class="meat" type="checkbox" name="meat" value="Anchovy"> Anchovy</input>
+		<br>
+		<input class="meat" type="checkbox" name="meat" value="Chicken"> Chicken</input>
+	</div>
+
+	<div class="frame2">
+		<h1>VEGGIES</h1>
+		<h4>First free, extras are $1 each.</h4>
+		<br>
+		<input class="veggies" type="checkbox" name="veggies" value="Tomatoes" checked> Tomatoes</input>
+		<br>
+		<input class="veggies" type="checkbox" name="veggies" value="Onions"> Onions</input>
+		<br>
+		<input class="veggies" type="checkbox" name="veggies" value="Olives"> Olives</input>
+		<br>
+		<input class="veggies" type="checkbox" name="veggies" value="Green Peppers"> Green Peppers</input>
+		<br>
+		<input class="veggies" type="checkbox" name="veggies" value="Mushrooms"> Mushrooms</input>
+		<br>
+		<input class="veggies" type="checkbox" name="veggies" value="Pineapple"> Pineapple</input>
+		<br>
+		<input class="veggies" type="checkbox" name="veggies" value="Spinach"> Spinach</input>
+		<br>
+		<input class="veggies" type="checkbox" name="veggies" value="Jalapeno"> Jalapeno</input>
+	</div>
+</div>	
+
+<br>
+
+<div class="frame3">
+	<button type="button" onclick="startReceipt();">Order</button>
+	<button type="button" onclick="Clear();">Clear</button>
+</div>	
+
+<br>
+
+<div class="frame4">
+	<p id="YourOrder"></p>
+	<p id="OrderTotal"></p>
+</div>
+
+
+<script src="assets/js/custompizza.js"></script>
+
