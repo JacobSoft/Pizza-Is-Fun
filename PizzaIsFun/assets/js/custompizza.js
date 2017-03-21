@@ -155,6 +155,3 @@ function getVeggies(runningTotal,text1) {
 	document.getElementById("OrderTotal").innerHTML = "</h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
 };	
 
-function Clear() {
-	document.getElementById("YourOrder").reset();
-};
